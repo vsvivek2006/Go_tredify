@@ -14,7 +14,7 @@ const About = () => {
       
       <section className="mt-4 d-flex align-items-center border p-4 rounded">
         <div className="col-md-6">
-          <img src="mission.jpg" alt="Our Mission" className="img-fluid rounded" />
+          <img src="https://img.freepik.com/free-vector/illustration-business-target-icon_53876-5898.jpg?t=st=1743422332~exp=1743425932~hmac=5462bf3ca7c45076ebcad1b3f35d7229fa96b6d04c80e7c3423f7c5013ed5449&w=826" alt="Our Mission" className="img-fluid rounded" />
         </div>
         <div className="col-md-6">
           <h3>Our Mission</h3>
@@ -26,7 +26,7 @@ const About = () => {
       
       <section className="mt-4 d-flex align-items-center border p-4 rounded">
         <div className="col-md-6 order-md-2">
-          <img src="vision.jpg" alt="Our Vision" className="img-fluid rounded" />
+          <img src="https://img.freepik.com/free-photo/magnifying-glass-enlarging-word_1134-334.jpg?t=st=1743422739~exp=1743426339~hmac=399e2dc961b09f75ccec1b31ee1ff7b209fdb83b86ff201e3c86ad737985df5a&w=1380" alt="Our Vision" className="img-fluid rounded" />
         </div>
         <div className="col-md-6 order-md-1">
           <h3>Our Vision</h3>
@@ -38,7 +38,7 @@ const About = () => {
       
       <section className="mt-4 d-flex align-items-center border p-4 rounded">
         <div className="col-md-6">
-          <img src="why-choose-us.jpg" alt="Why Choose Us" className="img-fluid rounded" />
+          <img src="https://img.freepik.com/free-photo/business-man-holding-clipboard-with-why-choose-us-question_23-2148932318.jpg?t=st=1743423405~exp=1743427005~hmac=d6d84b7659109c10e764952febdb1fa03bf63a89a7f96422d72678066f7370d4&w=1380" alt="Why Choose Us" className="img-fluid rounded" />
         </div>
         <div className="col-md-6 text-left">
           <h3>Why Choose Us?</h3>
@@ -55,18 +55,18 @@ const About = () => {
       <section className="mt-4 text-center border p-4 rounded">
         <h3>Meet Our Team</h3>
         <div className="row">
-          {[{ name: "Rahul Sharma", position: "Founder & CEO", img: "founder.jpg", social: "#" },
-            { name: "Amit Verma", position: "Co-Founder & COO", img: "cofounder.jpg", social: "#" },
-            { name: "Neha Singh", position: "Head of Marketing", img: "marketing.jpg", social: "#" },
-            { name: "Vikram Patel", position: "SEO Specialist", img: "seo.jpg", social: "#" },
-            { name: "Pooja Yadav", position: "Social Media Manager", img: "social.jpg", social: "#" },
-            { name: "Rohit Kumar", position: "Graphic Designer", img: "graphic.jpg", social: "#" },
-            { name: "Anjali Mehra", position: "Content Strategist", img: "content.jpg", social: "#" },
-            { name: "Arjun Das", position: "PPC Expert", img: "ppc.jpg", social: "#" },
-            { name: "Simran Kaur", position: "Web Developer", img: "web.jpg", social: "#" },
-            { name: "Kunal Joshi", position: "Email Marketing Specialist", img: "email.jpg", social: "#" },
-            { name: "Rajesh Gupta", position: "Brand Strategist", img: "brand.jpg", social: "#" },
-            { name: "Priya Desai", position: "Customer Success Manager", img: "success.jpg", social: "#" }
+        {[{ name: "Rahul Sharma", position: "Founder & CEO", img: "https://img.freepik.com/free-vector/salesman-composition-with-flat-design_23-2147872974.jpg", social: "#" },
+            { name: "Amit Verma", position: "Co-Founder & COO", img: "https://img.freepik.com/free-vector/salesman-composition-with-flat-design_23-2147872974.jpg", social: "#" },
+            { name: "Neha Singh", position: "Head of Marketing", img: "https://img.freepik.com/free-vector/salesman-composition-with-flat-design_23-2147872974.jpg", social: "#" },
+            { name: "Vikram Patel", position: "SEO Specialist", img: "https://img.freepik.com/free-vector/salesman-composition-with-flat-design_23-2147872974.jpg", social: "#" },
+            { name: "Pooja Yadav", position: "Social Media Manager", img: "https://img.freepik.com/free-vector/salesman-composition-with-flat-design_23-2147872974.jpg", social: "#" },
+            { name: "Rohit Kumar", position: "Graphic Designer", img: "https://img.freepik.com/free-vector/salesman-composition-with-flat-design_23-2147872974.jpg", social: "#" },
+            { name: "Anjali Mehra", position: "Content Strategist", img: "https://img.freepik.com/free-vector/salesman-composition-with-flat-design_23-2147872974.jpg", social: "#" },
+            { name: "Arjun Das", position: "PPC Expert", img: "https://img.freepik.com/free-vector/salesman-composition-with-flat-design_23-2147872974.jpg", social: "#" },
+            { name: "Simran Kaur", position: "Web Developer", img: "https://img.freepik.com/free-vector/salesman-composition-with-flat-design_23-2147872974.jpg", social: "#" },
+            { name: "Kunal Joshi", position: "Email Marketing Specialist", img: "https://img.freepik.com/free-vector/salesman-composition-with-flat-design_23-2147872974.jpg", social: "#" },
+            { name: "Rajesh Gupta", position: "Brand Strategist", img: "https://img.freepik.com/free-vector/salesman-composition-with-flat-design_23-2147872974.jpg", social: "#" },
+            { name: "Priya Desai", position: "Customer Success Manager", img: "https://img.freepik.com/free-vector/salesman-composition-with-flat-design_23-2147872974.jpg", social: "#" }
           ].map((member, index) => (
             <div key={index} className="col-md-3 text-center mb-4">
               <img src={member.img} alt={member.name} className="img-fluid rounded-circle" style={{ width: "100px", height: "100px" }} />
@@ -80,7 +80,7 @@ const About = () => {
       
       <section className="mt-4 d-flex align-items-center border p-4 rounded">
         <div className="col-md-6">
-          <img src="achievements.jpg" alt="Our Achievements" className="img-fluid rounded border" />
+          <img src="https://img.freepik.com/free-vector/successful-business-man-holding-trophy_1150-35046.jpg?t=st=1743423646~exp=1743427246~hmac=a271792f7f44d26b855a9559c4710c86cbec916e6bc4a5d8af9cdfb72a4938ec&w=1380" alt="Our Achievements" className="img-fluid rounded border" />
         </div>
         <div className="col-md-6 text-right">
           <h3>Our Achievements</h3>
