@@ -33,12 +33,12 @@ const Home = () => {
       {/* Services Overview */}
       <h2 className="text-center mb-4">Our Services</h2>
       <Row className="mb-5">
-        {[{ title: "SEO Optimization", text: "Boost your website ranking with our expert SEO strategies.", link: "/seo" },
-          { title: "Social Media Marketing", text: "Expand your brand presence on social media platforms.", link: "/smm" },
-          { title: "Graphic Designing", text: "Get stunning designs for your marketing campaigns.", link: "/design" },
-          { title: "Content Marketing", text: "Engaging and high-quality content to grow your business.", link: "/content" },
-          { title: "Email Marketing", text: "Reach your audience effectively through targeted email campaigns.", link: "/email" },
-          { title: "PPC Advertising", text: "Maximize your ROI with data-driven paid campaigns.", link: "/ppc" }
+        {[{ title: "SEO Optimization", text: "Boost your website ranking with our expert SEO strategies.", link: "/services" },
+          { title: "Social Media Marketing", text: "Expand your brand presence on social media platforms.", link: "/services" },
+          { title: "Graphic Designing", text: "Get stunning designs for your marketing campaigns.", link: "/services" },
+          { title: "Content Marketing", text: "Engaging and high-quality content to grow your business.", link: "/services" },
+          { title: "Email Marketing", text: "Reach your audience effectively through targeted email campaigns.", link: "/services" },
+          { title: "PPC Advertising", text: "Maximize your ROI with data-driven paid campaigns.", link: "/services" }
         ].map((service, index) => (
           <Col key={index} md={4} className="mb-4">
             <Card className="shadow-sm border">
