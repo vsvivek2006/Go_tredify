@@ -55,18 +55,18 @@ const About = () => {
       <section className="mt-4 text-center border p-4 rounded">
         <h3>Meet Our Team</h3>
         <div className="row">
-        {[{ name: "Rahul Sharma", position: "Founder & CEO", img: "https://img.freepik.com/free-vector/salesman-composition-with-flat-design_23-2147872974.jpg", social: "#" },
-            { name: "Amit Verma", position: "Co-Founder & COO", img: "https://img.freepik.com/free-vector/salesman-composition-with-flat-design_23-2147872974.jpg", social: "#" },
+        {[{ name: "Vikash Singh", position: "Founder & CEO", img: "https://img.freepik.com/free-vector/salesman-composition-with-flat-design_23-2147872974.jpg", social: "#" },
+            { name: "Sourabh Kumar", position: "Co-Founder & COO", img: "https://img.freepik.com/free-vector/salesman-composition-with-flat-design_23-2147872974.jpg", social: "#" },
             { name: "Neha Singh", position: "Head of Marketing", img: "https://img.freepik.com/free-vector/salesman-composition-with-flat-design_23-2147872974.jpg", social: "#" },
             { name: "Vikram Patel", position: "SEO Specialist", img: "https://img.freepik.com/free-vector/salesman-composition-with-flat-design_23-2147872974.jpg", social: "#" },
-            { name: "Pooja Yadav", position: "Social Media Manager", img: "https://img.freepik.com/free-vector/salesman-composition-with-flat-design_23-2147872974.jpg", social: "#" },
-            { name: "Rohit Kumar", position: "Graphic Designer", img: "https://img.freepik.com/free-vector/salesman-composition-with-flat-design_23-2147872974.jpg", social: "#" },
-            { name: "Anjali Mehra", position: "Content Strategist", img: "https://img.freepik.com/free-vector/salesman-composition-with-flat-design_23-2147872974.jpg", social: "#" },
-            { name: "Arjun Das", position: "PPC Expert", img: "https://img.freepik.com/free-vector/salesman-composition-with-flat-design_23-2147872974.jpg", social: "#" },
-            { name: "Simran Kaur", position: "Web Developer", img: "https://img.freepik.com/free-vector/salesman-composition-with-flat-design_23-2147872974.jpg", social: "#" },
-            { name: "Kunal Joshi", position: "Email Marketing Specialist", img: "https://img.freepik.com/free-vector/salesman-composition-with-flat-design_23-2147872974.jpg", social: "#" },
-            { name: "Rajesh Gupta", position: "Brand Strategist", img: "https://img.freepik.com/free-vector/salesman-composition-with-flat-design_23-2147872974.jpg", social: "#" },
-            { name: "Priya Desai", position: "Customer Success Manager", img: "https://img.freepik.com/free-vector/salesman-composition-with-flat-design_23-2147872974.jpg", social: "#" }
+            { name: "Rahul Kumar", position: "Social Media Manager", img: "https://img.freepik.com/free-vector/salesman-composition-with-flat-design_23-2147872974.jpg", social: "#" },
+            { name: "A.P.S Nirwan", position: "Graphic Designer", img: "https://img.freepik.com/free-vector/salesman-composition-with-flat-design_23-2147872974.jpg", social: "#" },
+            { name: "Vivek Singh", position: "Content Strategist", img: "https://img.freepik.com/free-vector/salesman-composition-with-flat-design_23-2147872974.jpg", social: "#" },
+            { name: "Rupesh kumar", position: "PPC Expert", img: "https://img.freepik.com/free-vector/salesman-composition-with-flat-design_23-2147872974.jpg", social: "#" },
+            { name: "Shankar Kumar", position: "Web Developer", img: "https://img.freepik.com/free-vector/salesman-composition-with-flat-design_23-2147872974.jpg", social: "#" },
+            { name: "Ranjeet Kumar", position: "Email Marketing Specialist", img: "https://img.freepik.com/free-vector/salesman-composition-with-flat-design_23-2147872974.jpg", social: "#" },
+            { name: "Vishal Singh", position: "Brand Strategist", img: "https://img.freepik.com/free-vector/salesman-composition-with-flat-design_23-2147872974.jpg", social: "#" },
+            { name: "Napur sharma", position: "Customer Success Manager", img: "https://img.freepik.com/free-vector/salesman-composition-with-flat-design_23-2147872974.jpg", social: "#" }
           ].map((member, index) => (
             <div key={index} className="col-md-3 text-center mb-4">
               <img src={member.img} alt={member.name} className="img-fluid rounded-circle" style={{ width: "100px", height: "100px" }} />
